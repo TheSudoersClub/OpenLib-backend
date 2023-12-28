@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Backend repo for openlib-pilot",
   "main": "src/server.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/server.js"
   },
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/TheSudoersClub/OpenLib-backend/issues"
   },
-  "homepage": "https://github.com/TheSudoersClub/OpenLib-backend#readme"
+  "homepage": "https://github.com/TheSudoersClub/OpenLib-backend#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2"
+  }
 }
