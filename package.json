@@ -1,0 +1,19 @@
+{
+  "name": "openlib-backend",
+  "version": "1.0.0",
+  "description": "Backend repo for openlib-pilot",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheSudoersClub/OpenLib-backend.git"
+  },
+  "author": "Ayush Ahirrao <ayushahirrao@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheSudoersClub/OpenLib-backend/issues"
+  },
+  "homepage": "https://github.com/TheSudoersClub/OpenLib-backend#readme"
+}
