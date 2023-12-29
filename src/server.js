@@ -10,12 +10,15 @@ mongoose.connect("mongodb://localhost:27017/openlib", { useNewUrlParser: true, u
 // route imports
 import test from "./routes/test.js"
 import cover from "./routes/cover-image.js"
+import addBook from "./routes/add-book.js"
 
 
 // routs
 app.use("/test", test)
 
 app.use("/cover", cover)
+
+app.use("/add-book", addBook)
 
 app.listen(PORT, () => {
     console.log("Server listening on http://localhost:3000");
