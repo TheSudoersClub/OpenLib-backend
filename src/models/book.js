@@ -2,10 +2,13 @@ import mongoose from "mongoose";
 
 const bookSchema = mongoose.Schema({
     owner_id: String, 
-    name: String,
+    ISBN: String,
+    title: String,
     author: String,
-    price: Number,
+    description: String,
     category: String, 
+    price: Number,
+    cover_image: String,
     listed_timestamp: String
 });
  

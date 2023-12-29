@@ -17,10 +17,11 @@ import getBooks from "./routes/getBooks.js"
 // routs
 app.use("/test", test)
 
-app.use("/cover", cover)
+app.use("/cover-image", cover)
 
 app.use("/add-book", addBook)
-app.use("/get-books", getBooks)
+
+app.use("/books", getBooks)
 
 app.listen(PORT, () => {
     console.log("Server listening on http://localhost:3000");
