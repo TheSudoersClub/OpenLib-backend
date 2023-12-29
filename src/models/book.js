@@ -8,7 +8,7 @@ const bookSchema = mongoose.Schema({
     category: String, 
     listed_timestamp: String
 });
-
+ 
 const Book = mongoose.model("books", bookSchema);
 
 export default Book;
